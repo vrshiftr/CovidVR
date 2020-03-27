@@ -1,0 +1,161 @@
+# 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
+# File Created: 25.02.2020 21:58:13
+
+newmtl Material_000001
+	Ns 33.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 1.0000 1.0000 1.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Hazmat_Visor_D_Black.png
+	map_Kd Hazmat_Visor_D_Black.png
+	map_d Hazmat_Visor_alpha.png
+
+newmtl Material_000023
+	Ns 33.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 1.0000 1.0000 1.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Hazmat_Suit_Yellow_D.png
+	map_Kd Hazmat_Suit_Yellow_D.png
+	map_Ks Hazmat_Suit_S1.png
+	map_bump -bm 0.3000 Hazmat_Suit_N.png
+
+newmtl Material_000ff2
+	Ns 33.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 1.0000 1.0000 1.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Hazmat_Gear_D.png
+	map_Kd Hazmat_Gear_D.png
+	map_Ks Hazmat_Gear_S1.png
+	map_bump -bm 0.3000 Hazmat_Gear_N.png
+
+newmtl Material_0010ff
+	Ns 33.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 1.0000 1.0000 1.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Hazmat_Gear_D.png
+	map_Kd Hazmat_Gear_D.png
+	map_Ks Hazmat_Gear_S1.png
+	map_bump -bm 0.3000 Hazmat_Gear_N.png
+
+newmtl Material_0011c5
+	Ns 33.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 1.0000 1.0000 1.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Hazmat_Gear_D.png
+	map_Kd Hazmat_Gear_D.png
+	map_Ks Hazmat_Gear_S1.png
+	map_bump -bm 0.3000 Hazmat_Gear_N.png
+
+newmtl Material_00150d
+	Ns 33.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 1.0000 1.0000 1.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Hazmat_Gear_D.png
+	map_Kd Hazmat_Gear_D.png
+	map_Ks Hazmat_Gear_S1.png
+	map_bump -bm 0.3000 Hazmat_Gear_N.png
+
+newmtl Material_001b04
+	Ns 33.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 1.0000 1.0000 1.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Hazmat_Gear_D.png
+	map_Kd Hazmat_Gear_D.png
+	map_Ks Hazmat_Gear_S1.png
+	map_bump -bm 0.3000 Hazmat_Gear_N.png
+
+newmtl Material_001c2d
+	Ns 33.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 1.0000 1.0000 1.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Hazmat_Gear_D.png
+	map_Kd Hazmat_Gear_D.png
+	map_Ks Hazmat_Gear_S1.png
+	map_bump -bm 0.3000 Hazmat_Gear_N.png
+
+newmtl Material_00268a
+	Ns 33.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 1.0000 1.0000 1.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Hazmat_Radio_D.png
+	map_Kd Hazmat_Radio_D.png
+	map_Ks Hazmat_Radio_S1.png
+	map_bump -bm 0.3000 Hazmat_Radio_N.png
+
+newmtl Material_0027e4
+	Ns 33.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 1.0000 1.0000 1.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Hazmat_Suit_Yellow_D.png
+	map_Kd Hazmat_Suit_Yellow_D.png
+	map_Ks Hazmat_Suit_S1.png
+	map_bump -bm 0.3000 Hazmat_Suit_N.png
