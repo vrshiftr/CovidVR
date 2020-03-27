@@ -12,22 +12,22 @@ public class Canon : MonoBehaviour
 	MissileConfiguration m_config;
 
 	//[SerializeField]
-	//Camera m_cam;
+	Camera m_cam;
 
 	[SerializeField]
 	bool m_forward;
 	
-	//void Update()
-	//{
-	//	Vector3 targetLook = m_forward
-							//	? m_cam.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, 10))
-							//	: m_cam.ScreenToWorldPoint(Input.mousePosition);
+	void Update()
+	{
+	//Vector3 targetLook = m_forward
+						//	? m_cam.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, 10))
+								//: m_cam.ScreenToWorldPoint(Input.mousePosition);
 		
-	//	transform.parent.LookAt(new Vector3(targetLook.x, targetLook.y, m_forward ? 0 : transform.position.z));
+	//transform.parent.LookAt(new Vector3(targetLook.x, targetLook.y, m_forward ? 0 : transform.position.z));
 
-	//	if (Input.GetMouseButtonDown(0))
-	//		Fire();
-	//}
+	if (Input.GetMouseButtonDown(0))
+		Fire();
+	}
 
 	public void Fire()
 	{

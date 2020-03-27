@@ -4,11 +4,11 @@ using System.Collections;
 public class TriggerColliderStart1 : MonoBehaviour
 {
     //public GameObject objToDestroy;
-    //public GameObject objToDestroy2;
+    public GameObject objToDestroy2;
 
     //public GameObject effect;
     public GameObject Spawnobject;
-    //public float Time;
+    public float Time;
  
 
     // Use this for initialization
@@ -18,6 +18,7 @@ public class TriggerColliderStart1 : MonoBehaviour
         if (other.gameObject.tag == "Enemy")
            
         Spawnobject.SetActive(true);
+        Destroy(objToDestroy2, 0.2f);
 
     }
 }
